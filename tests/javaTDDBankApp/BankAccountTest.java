@@ -10,7 +10,7 @@ class BankAccountTest {
 	void test() {
 		BankAccount acc = new BankAccount();
 		acc.deposit(50);
-		assertEquals(acc.balance, 50);
+		assertEquals(acc.getBalance(), 50);
 	}
 
 }
